@@ -49,7 +49,7 @@ body {
   text-align: center;
 }
   
-#section1 {
+.section1 {
   padding-top:50px;
   height:100vh;
   width:100%;
@@ -62,14 +62,14 @@ body {
   text-align: center;
 }
 	  
-#section1 h1{
+.section1 h1{
 	  position: relative;
 	  top: 40%;
 	  font-family: 'Mogra', cursive !important;
 	  font-size: 500%;
 }
 
-#section2 {
+.section2 {
   padding-top:50px;
   height:auto;
   width:100%;
@@ -88,7 +88,7 @@ body {
   margin-bottom: 20px;
 }
 		    
-#section3 {
+.section3 {
 	padding-top:50px;
 	height:auto;
 	width:100%;
@@ -101,11 +101,11 @@ body {
 	background-attachment: fixed;
 }
 	  
-#section3 p{
+.section3 p{
   font-size: 2rem;
 }
 	  
-#section4 {
+.section4 {
   padding-top:50px;
   height:600px;
   width:100%;
@@ -120,7 +120,7 @@ body {
 }
 	  
 /*sekcja 4 - efekt powiększenia zdjęcia po najechaniu*/	  
-#section4 img:hover{
+.section4 img:hover{
   cursor:pointer;
   transform: scale(1.2);
 }
@@ -130,13 +130,13 @@ body {
 }
 
 /*sekcja 4 - styl tekstu opisującego trenera*/	  
-#section4 p{
+.section4 p{
   position:relative;
   bottom: -50px;
   font-size: 5rem;
 }
 	  
-#section5 {
+.section5 {
 	padding-top:50px;
 	height:500px;
 	width:100%;
@@ -185,7 +185,7 @@ table th{
   background-color: #000000;
 }
 
-#section6{
+.section6{
 	padding-top:50px;
 	height:auto;
 	width:100%;
@@ -195,7 +195,7 @@ table th{
 }
 	  
 /*sekcja 6 - styl diva zawierającego kontakty*/	  
-#social{
+.social{
   height:auto;
   text-align: center;
   font-family: 'Rancho', cursive;
@@ -227,7 +227,7 @@ table th{
 }
 	  
 /*sekcja 6 - styl mapy*/	
-#map{
+.map{
 	border: 3px solid #000;
 	height:350px;
 	width: 80%;
@@ -266,25 +266,25 @@ footer p{
 /*media queries*/
 
 @media (max-width: 1010px){
-	#map{
+	.map{
 		width: 90%;
 	}
 }
 
 @media (max-width: 991px){
-	#section4 .container{
+	.section4 .container{
 		position: static;
 	}
 	
-	#section4 p{
+	.section4 p{
 		  visibility: hidden;
 	  }
 	  
-	  #section4{
+	  .section4{
 		  height: auto;
 	  }
 	  
-	  #social{
+	  .social{
 		  margin-bottom: 0;
 	  }
 	  
@@ -303,7 +303,7 @@ footer p{
 	  vertical-align: top;
 	}
 	
-	#section2 .row{
+	.section2 .row{
 		margin: 0 auto;
 		text-align: center;
 	}
