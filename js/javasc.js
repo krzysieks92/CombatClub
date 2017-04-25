@@ -1,7 +1,7 @@
 /*płynne przewijanie strony*/
 $(document).ready(function() { 
  
-	$('a[href^="#"]').on('click', function(event) {
+	$('a[href^="."]').on('click', function(event) {
 	
 		var target = $( $(this).attr('href') );
 	
@@ -71,7 +71,7 @@ $(window).load(function(){
 	
 /*pojawianie sie elementow strony podczas przewijania*/
 window.sr = ScrollReveal();
-    sr.reveal('i', {
+    sr.reveal('.socialMedia', {
         reset: true,
         delay: 300,
         distance: 0
@@ -84,7 +84,7 @@ window.sr = ScrollReveal();
 /*mapa*/
 function initMap() {
         var uluru = {lat: 52.229676, lng: 21.012228999999934};
-        var map = new google.maps.Map(document.getElementById('map'), {
+        var map = new google.maps.Map(document.querySelector('.map'), {
           zoom: 14,
           center: uluru
         });
