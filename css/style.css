@@ -28,13 +28,13 @@ table th{text-align:center;}
 .colorSp{background-color:#b586b7;}
 .colorEmpty{background-color:#000000;}
 .section6{padding-top:50px;height:auto;width:100%;color:#fff;background-color:#ff9800;text-align:center;}
-#social{height:auto;text-align:center;font-family:'Rancho', cursive;font-size:2rem;line-height:1rem;margin-bottom:20px;}
+.social{height:auto;text-align:center;font-family:'Rancho', cursive;font-size:2rem;line-height:1rem;margin-bottom:20px;}
 .socialMedia{margin-right:20px;}
 .socialMedia:hover{cursor:pointer;}
 .fa-facebook-square:hover{color:#3b5998;}
 .fa-youtube-square:hover{color:#bb0000;}
 .fa-instagram:hover{color:#bc2a8d;}
-#map{border:3px solid #000;height:350px;width:80%;margin:20px auto;}
+.map{border:3px solid #000;height:350px;width:80%;margin:20px auto;}
 .scrollup{width:40px;height:40px;opacity:0.6;position:fixed;bottom:50px;right:0;display:none;text-indent:-9999px;background:url('../img/circle-blue.png') no-repeat;}
 footer{background-color:#295933;height:50px;text-align:center;width:100%;margin-top:0;position:absolute;left:0;bottom:-50px;}
 footer p{position:relative;top:30%;}
@@ -55,7 +55,7 @@ footer p{position:relative;top:30%;}
 	.img-circle{
 		height:100px;
 	}
-	#social .socialMedia{
+	.social .socialMedia{
 		font-size: 4rem;
 	}
 }
