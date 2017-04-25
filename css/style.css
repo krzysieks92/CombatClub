@@ -6,18 +6,18 @@ p{font-family:'Rancho', cursive;}
 .navbar .nav > li{float:none;display:inline-block;*display:inline;*zoom:1;vertical-align:top;}
 .navbar .navbar-nav{display:inline-block;float:none;vertical-align:top;}
 .navbar .navbar-collapse{text-align:center;}
-#section1{padding-top:50px;height:100vh;width:100%;color:#fff;background-image:url('../img/sala.jpg');background-repeat:no-repeat;background-position:center;background-size:cover;background-attachment:fixed;text-align:center;}
-#section1 h1{position:relative;top:40%;font-family:'Mogra', cursive !important;font-size:500%;}
-#section2{padding-top:50px;height:auto;width:100%;color:#fff;background-color:#ff9800;background-image:url('../img/ring.jpg');background-repeat:no-repeat;background-position:center;background-size:cover;background-attachment:fixed;text-align:center;}
+.section1{padding-top:50px;height:100vh;width:100%;color:#fff;background-image:url('../img/sala.jpg');background-repeat:no-repeat;background-position:center;background-size:cover;background-attachment:fixed;text-align:center;}
+.section1 h1{position:relative;top:40%;font-family:'Mogra', cursive !important;font-size:500%;}
+.section2{padding-top:50px;height:auto;width:100%;color:#fff;background-color:#ff9800;background-image:url('../img/ring.jpg');background-repeat:no-repeat;background-position:center;background-size:cover;background-attachment:fixed;text-align:center;}
 .tile{margin-bottom:20px;}
-#section3{padding-top:50px;height:auto;width:100%;color:#fff;text-align:center;background-image:url('../img/cross.jpg');background-repeat:no-repeat;background-position:center;background-size:cover;background-attachment:fixed;}
-#section3 p{font-size:2rem;}
-#section4{padding-top:50px;height:600px;width:100%;color:#fff;background-color:#00bcd4;text-align:center;}
+.section3{padding-top:50px;height:auto;width:100%;color:#fff;text-align:center;background-image:url('../img/cross.jpg');background-repeat:no-repeat;background-position:center;background-size:cover;background-attachment:fixed;}
+.section3 p{font-size:2rem;}
+.section4{padding-top:50px;height:600px;width:100%;color:#fff;background-color:#00bcd4;text-align:center;}
 .img-circle{height:130px;}
-#section4 img:hover{cursor:pointer;transform:scale(1.2);}
+.section4 img:hover{cursor:pointer;transform:scale(1.2);}
 .trener{margin-bottom:20px;}
-#section4 p{position:relative;bottom:-50px;font-size:5rem;}
-#section5{padding-top:50px;height:500px;width:100%;color:#fff;text-align:center;background-image:url('../img/bjj2.jpg');background-repeat:no-repeat;background-position:center;background-size:cover;background-attachment:fixed;}
+.section4 p{position:relative;bottom:-50px;font-size:5rem;}
+.section5{padding-top:50px;height:500px;width:100%;color:#fff;text-align:center;background-image:url('../img/bjj2.jpg');background-repeat:no-repeat;background-position:center;background-size:cover;background-attachment:fixed;}
 table th{text-align:center;}
 .colorBjj{background-color:#ed9704;}
 .colorBoks{background-color:#040fed;}
@@ -27,7 +27,7 @@ table th{text-align:center;}
 .colorZapasy{background-color:#600d63;}
 .colorSp{background-color:#b586b7;}
 .colorEmpty{background-color:#000000;}
-#section6{padding-top:50px;height:auto;width:100%;color:#fff;background-color:#ff9800;text-align:center;}
+.section6{padding-top:50px;height:auto;width:100%;color:#fff;background-color:#ff9800;text-align:center;}
 #social{height:auto;text-align:center;font-family:'Rancho', cursive;font-size:2rem;line-height:1rem;margin-bottom:20px;}
 .socialMedia{margin-right:20px;}
 .socialMedia:hover{cursor:pointer;}
@@ -41,14 +41,14 @@ footer p{position:relative;top:30%;}
 @media (max-width:1010px){#map{width:90%;}
 }
 @media (max-width:991px){#section4 .container{position:static;}
-#section4 p{visibility:hidden;}
-#section4{height:auto;}
-#social{margin-bottom:0;}
+.section4 p{visibility:hidden;}
+.section4{height:auto;}
+.social{margin-bottom:0;}
 .socialMedia{margin-right:5px;}
 }
 @media (max-width:767px){.navbar .nav,
 .navbar .nav > li{float:none;display:block;*display:inline;*zoom:1;vertical-align:top;}
-#section2 .row{margin:0 auto;text-align:center;}
+.section2 .row{margin:0 auto;text-align:center;}
 .socialMedia{margin:40px 0;}
 }
 @media (max-width: 400px){
